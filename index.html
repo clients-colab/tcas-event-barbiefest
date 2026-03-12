@@ -20,24 +20,9 @@
     --text-muted: #5A5A7A;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
   body { font-family: "DM Sans", sans-serif; background: var(--off-white); color: var(--text); overflow-x: hidden; }
 
-  /* COUNTDOWN */
-  .countdown-bar {
-    background: var(--navy-mid);
-    text-align: center;
-    padding: 12px 20px;
-    font-size: 14px;
-    color: var(--white);
-    font-weight: 500;
-  }
-  .countdown-bar span#countdown-timer {
-    font-weight: 700;
-    color: var(--gold-light);
-    font-size: 16px;
-    letter-spacing: 0.05em;
-  }
-  .countdown-label { color: rgba(255,255,255,0.7); font-size: 13px; }
 
   .hero { background: var(--navy); position: relative; overflow: hidden; }
   .hero-ribbon { background: var(--pink); text-align: center; padding: 10px 20px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--white); }
@@ -137,12 +122,6 @@
 </head>
 <body>
 
-<!-- COUNTDOWN -->
-<div class="countdown-bar">
-  <span class="countdown-label">This offer expires in </span>
-  <span id="countdown-timer">--:--:--:--</span>
-  <span class="countdown-label"> &nbsp;(April 1 at 11:59pm EST)</span>
-</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -159,8 +138,8 @@
     <div class="price-block">
       <div class="price-label">Barbie Fest Event Rate</div>
       <div class="price-main"><sup>$</sup>350</div>
-      <div class="price-compare">Regular rate: $395</div>
-      <div class="price-save">✦ You save $45 today</div>
+      <div class="price-compare">Regular rate: $415</div>
+      <div class="price-save">✦ You save $65 today</div>
     </div>
     <br>
     <a href="https://app.sayyestocollege.com/widget/booking/z08bs1mgvsuauFQd0kyA" class="cta-btn">Reserve My Strategy Session</a>
